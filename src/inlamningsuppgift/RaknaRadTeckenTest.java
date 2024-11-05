@@ -9,7 +9,7 @@ package inlamningsuppgift;
     public class RaknaRadTeckenTest {
 
         @Test
-        public void testSingleLineWithoutStop() {
+        public void testaEnkelRadUtanStop() {
             RaknaRadTecken stats = new RaknaRadTecken();
             stats.addLine("Hello World!");
             assertEquals(1, stats.getRowCount(), "Row count should be 1 for a single line.");
@@ -17,7 +17,7 @@ package inlamningsuppgift;
         }
 
         @Test
-        public void testMultipleLinesWithoutStop() {
+        public void testaMangaRaderUtanStop() {
             RaknaRadTecken stats = new RaknaRadTecken();
             stats.addLine("First line.");
             stats.addLine("Second line here.");
@@ -27,7 +27,7 @@ package inlamningsuppgift;
         }
 
         @Test
-        public void testLineWithStopWord() {
+        public void testaEnkelRadMedStop() {
             RaknaRadTecken stats = new RaknaRadTecken();
             stats.addLine("First line.");
             stats.addLine("stop");
