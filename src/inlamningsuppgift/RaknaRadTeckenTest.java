@@ -41,4 +41,8 @@ package inlamningsuppgift;
         }
     }
 
-
+//Sammanfattningsvis:
+//
+//RaknaRadText är en enkel dataklass för att räkna rader och tecken.
+//TextStop hanterar användarinteraktionen.
+//JUnit-testfall bekräftar att RaknRadText fungerar korrekt.
